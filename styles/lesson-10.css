@@ -1,0 +1,42 @@
+.lesson-10 {
+  max-width: 300px;
+  --color-success: green;
+  --color-error: tomato;
+}
+
+.lesson-10 form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-box {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.message-box.success {
+  border-color: var(--color-success);
+  color var(--color-success);
+}
+
+.message-box.error {
+  border-color: var(--color-error);
+  color: var(--color-error);
+}
+
+.lesson-10 .list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
