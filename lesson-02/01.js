@@ -17,10 +17,10 @@ let isAccess = false;
 
 
 if ((isAdmin === true || isVerifiedUser === true) && (hasSpecialPermission === true || hasTemporaryPass === true)) {
-    alert("Доступ открыт");
+    console.log("Доступ открыт");
     isAccess = true;
 } else {
-    alert("Доступ закрыт");
+    console.log("Доступ закрыт");
 }
 
 // your code
