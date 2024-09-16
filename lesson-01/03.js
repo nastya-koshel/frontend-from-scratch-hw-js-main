@@ -5,16 +5,13 @@
 */
 
 // your code
-let sum = 0;
-let i = 1;
+// let sum = 0;
+// let i = 1;
 
-while (i <= 20) {
-    if (i % 2 !== 0) {
-        sum = sum + i;
-        i = i + 1;
-        if (i > 20) {
-          break;
-      }  
-    }
-}
-console.log(sum);
+// while (i <= 20) {
+//     if (i % 2 !== 0) {
+//         sum = sum + i;
+//         i = i + 1;
+//     }
+// }
+// console.log(sum);
