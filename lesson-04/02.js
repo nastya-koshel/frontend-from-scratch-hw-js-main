@@ -18,18 +18,17 @@ function includesElement(array, element) {
     for (let i = 0; i < array.length; i++) {
         if (array[i] === element) {
             return true
-        } else {
-            return false
         }
     }
+            return false
 }
 
 function findUniqueElements(array) {
     const uniqueElements = [];
     for (let i = 0; i < array.length; i++) {
-        if (includesElement(array, array[i]) === false) {
-            uniqueElements.push (array[i])
+        if (!includesElement(uniqueElements, array[i])) {
+            uniqueElements.push(array[i])
         }
     }
-    return uniqueElements
+    return uniqueElements;
 }
