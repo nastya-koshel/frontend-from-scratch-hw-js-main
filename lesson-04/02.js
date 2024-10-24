@@ -25,10 +25,11 @@ function includesElement(array, element) {
 }
 
 function findUniqueElements(array) {
-    const UniqueElements = [];
+    const uniqueElements = [];
     for (let i = 0; i < array.length; i++) {
         if (!includesElement(array, array[i])) {
-            UniqueElements.push (array[i])
+            uniqueElements.push (array[i])
         }
     }
+    return uniqueElements
 }
