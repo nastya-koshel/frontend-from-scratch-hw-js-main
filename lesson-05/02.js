@@ -38,3 +38,4 @@ const gallery = {
 function updateGallery(artwork, info) {
       gallery[artwork] = info
 }
+
