@@ -36,7 +36,5 @@ const gallery = {
 }
 
 function updateGallery(artwork, info) {
-  if (artwork in gallery) {
       gallery[artwork] = info
-  }
 }
