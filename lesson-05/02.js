@@ -35,7 +35,11 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery(artwork, info) {
-      gallery[artwork] = info
+function updateGallery(abj, artwork, info) {
+  abj[artwork] = info
 }
 
+updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
+updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali')
+
+console.log(gallery);
