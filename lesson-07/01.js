@@ -7,7 +7,7 @@
 */
 
 
-function capitalizeWords() {
+function capitalizeWords(str) {
   let result = ''
   for (let i = 0; i < str.length; i++) {
     if (i === 0 || str[i - 1] === ' ') {
