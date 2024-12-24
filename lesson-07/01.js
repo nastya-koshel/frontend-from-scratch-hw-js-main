@@ -18,4 +18,3 @@ function capitalizeWords(str) {
   }
   return result
 }
-
